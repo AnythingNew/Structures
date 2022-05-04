@@ -276,25 +276,45 @@ int main()
 				cin >> enter;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (enter == audi.name)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (enter == bmw.name)
+				if (enter == bmw.name)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (enter == rr.name)
+				if (enter == rr.name)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (enter == usersCar1.name)
+				if (enter == usersCar1.name)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (enter == usersCar2.name)
+				if (enter == usersCar2.name)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (enter == usersCar3.name)
+				if (enter == usersCar3.name)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -305,25 +325,45 @@ int main()
 				cin >> l1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (l1 == audi.length)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (l1 == bmw.length)
+				if (l1 == bmw.length)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (l1 == rr.length)
+				if (l1 == rr.length)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (l1 == usersCar1.length)
+				if (l1 == usersCar1.length)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (l1 == usersCar2.length)
+				if (l1 == usersCar2.length)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (l1 == usersCar3.length)
+				if (l1 == usersCar3.length)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -334,25 +374,45 @@ int main()
 				cin >> cl1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (cl1 == audi.clirens)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (cl1 == bmw.clirens)
+				if (cl1 == bmw.clirens)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (cl1 == rr.clirens)
+				if (cl1 == rr.clirens)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (cl1 == usersCar1.clirens)
+				if (cl1 == usersCar1.clirens)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (cl1 == usersCar2.clirens)
+				if (cl1 == usersCar2.clirens)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (cl1 == usersCar3.clirens)
+				if (cl1 == usersCar3.clirens)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -363,25 +423,45 @@ int main()
 				cin >> v1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (v1 == audi.volume)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (v1 == bmw.volume)
+				if (v1 == bmw.volume)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (v1 == rr.volume)
+				if (v1 == rr.volume)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (v1 == usersCar1.volume)
+				if (v1 == usersCar1.volume)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (v1 == usersCar2.volume)
+				if (v1 == usersCar2.volume)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (v1 == usersCar3.volume)
+				if (v1 == usersCar3.volume)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -392,25 +472,45 @@ int main()
 				cin >> p1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (p1 == audi.power)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (p1 == bmw.power)
+				if (p1 == bmw.power)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (p1 == rr.power)
+				if (p1 == rr.power)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (p1 == usersCar1.power)
+				if (p1 == usersCar1.power)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (p1 == usersCar2.power)
+				if (p1 == usersCar2.power)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (p1 == usersCar3.power)
+				if (p1 == usersCar3.power)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -421,25 +521,45 @@ int main()
 				cin >> d1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (d1 == audi.d)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (d1 == bmw.d)
+				if (d1 == bmw.d)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (d1 == rr.d)
+				if (d1 == rr.d)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (d1 == usersCar1.d)
+				if (d1 == usersCar1.d)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (d1 == usersCar2.d)
+				if (d1 == usersCar2.d)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (d1 == usersCar3.d)
+				if (d1 == usersCar3.d)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -449,25 +569,45 @@ int main()
 				cin >> c1;
 				cout << endl << endl;
 
+				q = 0;
+
 				if (c1 == audi.color)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (c1 == bmw.color)
+				if (c1 == bmw.color)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (c1 == rr.color)
+				if (c1 == rr.color)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (c1 == usersCar1.color)
+				if (c1 == usersCar1.color)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (c1 == usersCar2.color)
+				if (c1 == usersCar2.color)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (c1 == usersCar3.color)
+				if (c1 == usersCar3.color)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
@@ -509,28 +649,48 @@ int main()
 						break;
 					}
 
-					
+
 				}
 
+				q = 0;
+
 				if (trans == audi.transmission)
+				{
 					show(audi);
+					q = 1;
+				}
 
-				else if (trans == bmw.transmission)
+				if (trans == bmw.transmission)
+				{
 					show(bmw);
+					q = 1;
+				}
 
-				else if (trans == rr.transmission)
+				if (trans == rr.transmission)
+				{
 					show(rr);
+					q = 1;
+				}
 
-				else if (trans == usersCar1.transmission)
+				if (trans == usersCar1.transmission)
+				{
 					show(usersCar1);
+					q = 1;
+				}
 
-				else if (trans == usersCar2.transmission)
+				if (trans == usersCar2.transmission)
+				{
 					show(usersCar2);
+					q = 1;
+				}
 
-				else if (trans == usersCar3.transmission)
+				if (trans == usersCar3.transmission)
+				{
 					show(usersCar3);
+					q = 1;
+				}
 
-				else
+				if (q == 0)
 					cout << "Ничего не найдено" << endl;
 
 				break;
